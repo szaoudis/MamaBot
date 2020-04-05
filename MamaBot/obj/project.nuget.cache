@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hxJFCuenqpDr8mb3dBPpaqfX57RKcchPlslVeKEdPNL5mBKwmCY3jYkHRF04vfmNLxK/0BVmkansTMTfcuIJig==",
+  "dgSpecHash": "3lBeNKZjeyBGaIxJvrxzNvwMS82AbR9ChntiDInIZUwnPcFQqAdAL5OJoG6BM3Oa5fEp6c1yfN8EI5XfYGek8Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\Desktop\\MamaBot\\MamaBot\\MamaBot.csproj",
+  "projectFilePath": "C:\\Users\\user\\Desktop\\GitHub\\MamaBot\\MamaBot\\MamaBot.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.6\\microsoft.aspnet.webapi.client.5.2.6.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore\\2.1.1\\microsoft.aspnetcore.2.1.1.nupkg.sha512",

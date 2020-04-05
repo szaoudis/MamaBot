@@ -20,13 +20,14 @@ namespace MamaBot.Dialogs
         protected readonly ILogger Logger;
 
         // Dependency injection uses this constructor to instantiate MainDialog
-        public LuisDialog(MamaLuisRecognizer luisRecognizer, ILogger<LuisDialog> logger, RecipeDialog recipeDialog)
+        public LuisDialog(MamaLuisRecognizer luisRecognizer, ILogger<LuisDialog> logger, RecipeDialog recipeDialog, WeatherDialog weatherDialog)
             : base(nameof(LuisDialog))
         {
             _luisRecognizer = luisRecognizer;
             Logger = logger;
 
             AddDialog(new TextPrompt(nameof(TextPrompt)));
+            AddDialog(weatherDialog);
             AddDialog(recipeDialog);
             AddDialog(new WaterfallDialog(nameof(WaterfallDialog), new WaterfallStep[]
             {
@@ -111,6 +112,9 @@ namespace MamaBot.Dialogs
 
                 case "Recipes":
                     return await stepContext.BeginDialogAsync(nameof(RecipeDialog), null, cancellationToken);
+
+                case "weather":
+                    return await stepContext.BeginDialogAsync(nameof(WeatherDialog), null, cancellationToken);
 
                 default:
                     // Catch all for unhandled intents

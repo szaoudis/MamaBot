@@ -12,7 +12,7 @@ namespace MamaBot.ApiCommunication
         public static async Task<JToken> GetRecipe(string RecipeItem)
         {
             string itemOfRecipe = RecipeItem;
-            string _address = "https://api.spoonacular.com/recipes/complexSearch?query="+itemOfRecipe+"&apiKey=2c31119bf6f5432f9a51428cba783979";
+            string _address = "https://api.spoonacular.com/recipes/complexSearch?query=" + itemOfRecipe+"&apiKey=" + Keys.RecipeKey().ToString();
 
             HttpClient client = new HttpClient();
             var response = await client.GetStringAsync(_address);

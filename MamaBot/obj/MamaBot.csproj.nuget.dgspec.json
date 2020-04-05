@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Desktop\\MamaBot\\MamaBot\\MamaBot.csproj": {}
+    "C:\\Users\\user\\Desktop\\GitHub\\MamaBot\\MamaBot\\MamaBot.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Desktop\\MamaBot\\MamaBot\\MamaBot.csproj": {
+    "C:\\Users\\user\\Desktop\\GitHub\\MamaBot\\MamaBot\\MamaBot.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\MamaBot\\MamaBot\\MamaBot.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\GitHub\\MamaBot\\MamaBot\\MamaBot.csproj",
         "projectName": "MamaBot",
-        "projectPath": "C:\\Users\\user\\Desktop\\MamaBot\\MamaBot\\MamaBot.csproj",
+        "projectPath": "C:\\Users\\user\\Desktop\\GitHub\\MamaBot\\MamaBot\\MamaBot.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\MamaBot\\MamaBot\\obj\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\GitHub\\MamaBot\\MamaBot\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
